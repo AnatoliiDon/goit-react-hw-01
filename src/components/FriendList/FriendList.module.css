@@ -12,20 +12,3 @@
   text-align: center;
   border-radius: 4%;
 }
-
-.avatar {
-  margin-bottom: 5px;
-}
-
-.name {
-  font-weight: 500;
-  margin-bottom: 3px;
-}
-
-.Online {
-  color: green;
-}
-
-.Offline {
-  color: red;
-}
