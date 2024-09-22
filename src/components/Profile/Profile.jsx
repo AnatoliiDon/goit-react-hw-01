@@ -1,9 +1,9 @@
 import styles from './Profile.module.css';
 
-const Profile = ({ name, tag, location, image, stats = props }) => {
+const Profile = ({ name, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
   return (
-    <div className={styles.constainer}>
+    <div className={styles.container}>
       <div>
         <img className={styles.profileImg} src={image} alt="User avatar" />
         <p className={styles.name}>{name}</p>
