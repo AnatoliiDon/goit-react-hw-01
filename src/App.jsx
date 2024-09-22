@@ -6,7 +6,7 @@ import friends from './friends.json';
 import transactions from './transaction.json';
 function App() {
   return (
-    <div>
+    <>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -14,11 +14,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <>
-        <FriendList friends={friends} />
-        <TransactionHistory items={transactions} />
-      </>
-    </div>
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
+    </>
   );
 }
 
